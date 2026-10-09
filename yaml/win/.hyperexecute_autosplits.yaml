@@ -20,4 +20,6 @@ testDiscovery:
   command: grep -lr 'describe' tests
 testRunnerCommand: npx playwright test $test
 
+shell: bash
+
 jobLabel: [playwright-VanillaJS, win, autosplit] 
